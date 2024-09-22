@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/requesterTextView"
+        android:layout_width="174dp"
+        android:layout_height="46dp"
+        android:text="@string/requester_username"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/bookTextView"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:text="@string/book_name" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="116dp"
+        android:layout_height="37dp"
+        android:text="@string/status" />
+
+    <Button
+        android:id="@+id/approveButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="@string/approve" />
+
+    <Button
+        android:id="@+id/rejectButton"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reject" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5" />
+
+</LinearLayout>

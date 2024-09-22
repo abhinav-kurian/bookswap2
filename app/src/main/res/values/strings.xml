@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bookswap2</string>
+    <string name="name">Name</string>
+    <string name="approve">Approve</string>
+    <string name="book_name">Book Name</string>
+    <string name="reject">Reject</string>
+    <string name="requester_username">Requester Username</string>
+    <string name="status">Status</string>
+</resources>
